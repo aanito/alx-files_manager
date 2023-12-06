@@ -1,6 +1,8 @@
+/* Write the import  statemtns as this fixes errors */
 /* eslint-disable import/no-named-as-default */
-import redisClient from '../utils/redis';
-import dbClient from '../utils/db';
+import redisClient from '../../utils/redis';
+
+import dbClient from '../../utils/db';
 
 export default class AppController {
   static getStatus(req, res) {
